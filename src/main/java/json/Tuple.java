@@ -7,6 +7,14 @@ public class Tuple<K, V> {
     public final K key;
     public final V value;
 
+    public K getKey() {
+        return key;
+    }
+
+    public V getValue() {
+        return value;
+    }
+
     public Tuple(K key, V value) {
         this.key = key;
         this.value = value;
